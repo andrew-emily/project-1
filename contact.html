@@ -24,10 +24,13 @@
     <aside class="contactAside">
         <div class="contactContainer">
             <ul>
-                <li><a href="https:www.facebook.com/underthesea"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="https:www.instagram.com/underthesea"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="https:www.twitter.com/underthesea"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https:www.whatsapp.com/underthesea"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="https:www.facebook.com/underthesea" aria-label="go to under-the-sea facebook page"><i aria-hidden="true" class="fab fa-facebook-f"></i></a></li>
+
+                <li><a href="https:www.instagram.com/underthesea" aria-label="go to under-the-sea instagram page"><i aria-hidden="true" class="fab fa-instagram"></i></a></li>
+
+                <li><a href="https:www.twitter.com/underthesea" aria-label="go to under-the-sea twitter page"><i aria-hidden="true" class="fab fa-twitter"></i></a></li>
+                
+                <li><a href="https:www.whatsapp.com/underthesea" aria-label="go to under-the-sea whatsapp"><i aria-hidden="true" class="fab fa-whatsapp"></i></a></li>
             </ul>
             <a href=""><h5>info@email.com</h5></a>
             <p>123-456-7890</p>
@@ -39,18 +42,18 @@
     <div class="contactForm">
     <form action="LOOK THIS UP">
             <fieldset>
-                <legend>enter your information to conact under the sea</legend>
-                    <label for="userName"></label>
-                    <input type="text" name="userName" id="userName">
+                <legend>enter your information to contact under the sea</legend>
+                <label for="userName" class="sr-only"></label>
+                <input type="text" name="userName" id="userName" placeholder="Name">
 
-                    <label for="userEmail"></label>
-                    <input type="email" name="userEmail" id="userEmail">
+                <label for="userEmail" class="sr-only"></label>
+                <input type="email" name="userEmail" id="userEmail" placeholder="Email address">
 
-                    <label for="commentBox"></label>
-                    <textarea name="commentBox" id="commentBox" cols="30" rows="10"></textarea>
+                <label for="commentBox" class="sr-only"></label>
+                <textarea name="commentBox" id="commentBox" cols="30" rows="10" placeholder="Message"></textarea>
 
-                    <label for="submit"></label>
-                    <button type="submit"></button>
+                <label for="submit" class="sr-only"></label>
+                <button type="submit" id="submit">submit</button>
             </fieldset>
         </form>
     </div>
