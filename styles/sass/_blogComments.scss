@@ -1,6 +1,17 @@
 .commentContainer {
     display: flex;
     flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.commentImg {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.commentText {
+    text-align: left;
+    margin-left: 15px;
 }
 
 h4 {

@@ -72,15 +72,17 @@
             </section>
             
             <!-- BLOG FORM SECTION -->
-            <form action="LOOK THIS UP">
+            <form class="blogForm" action="LOOK THIS UP">
                 <fieldset>
                     <legend>enter your information to post a comment</legend>
-                    <label for="userName" class="sr-only"></label>
-                    <input type="text" name="userName" id="userName" placeholder="Name">
-                    
-                    <label for="userEmail" class="sr-only"></label>
-                    <input type="email" name="userEmail" id="userEmail" placeholder="Email address">
-                    
+                    <div class="nameEmail">
+                        <label for="userName" class="sr-only"></label>
+                        <input type="text" name="userName" id="userName" placeholder="Name">
+                        
+                        <label for="userEmail" class="sr-only"></label>
+                        <input type="email" name="userEmail" id="userEmail" placeholder="Email address">
+                    </div>
+                        
                     <label for="commentBox" class="sr-only"></label>
                     <textarea name="commentBox" id="commentBox" cols="30" rows="10" placeholder="Message"></textarea>
                     

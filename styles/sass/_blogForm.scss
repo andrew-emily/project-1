@@ -1,0 +1,35 @@
+fieldset {
+    border: 0;
+}
+
+legend {
+    display: none;
+}
+
+.blogForm {
+    margin-bottom: 10%;
+
+    input,
+    textarea {
+        background-color: #0C1423;
+        color: #FFF;
+        border-style: hidden;
+        margin-bottom: 20px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    input {
+        border-bottom: 2px solid #86E0F9;
+    }
+
+    textarea {
+        border: 2px solid #86E0F9;
+    }
+
+    button {
+        width: 100%;
+        background-color: #0F614E;
+        color: #FFF;
+    }
+}
