@@ -1,0 +1,30 @@
+.blogPost {
+    border-left: 2px solid #86E0F9;
+    border-bottom: 2px solid #86E0F9;
+}
+
+.blogPostImg {
+    position: relative;
+    top: -65px;
+    right: -19px;
+
+    img {
+        box-shadow: -21px 21px 0 #86E0F9;
+    }
+}
+
+.blogContent {
+    text-align: left;
+    padding: 0 0 5px 20px;
+
+
+    .dateName { 
+        margin-top: 5px;
+        text-transform: capitalize;
+    }
+    
+    h3 {
+        text-align: left;
+        margin: 0;
+    }
+}

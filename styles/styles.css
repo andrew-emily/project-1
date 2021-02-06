@@ -239,10 +239,6 @@ html {
   font-size: 62.5%;
 }
 
-* {
-  border: 1px solid lightcoral;
-}
-
 body {
   background: #0c1423;
   color: white;
@@ -497,7 +493,7 @@ footer p {
 .blogHeader {
   background-image: url(../../assets/blog-header.jpg);
   height: 80vh;
-  margin-bottom: 100px;
+  margin-bottom: 10%;
 }
 
 .blogTitle {
@@ -515,4 +511,35 @@ footer p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.blogPost {
+  border-left: 2px solid #86E0F9;
+  border-bottom: 2px solid #86E0F9;
+}
+
+.blogPostImg {
+  position: relative;
+  top: -65px;
+  right: -19px;
+}
+
+.blogPostImg img {
+  -webkit-box-shadow: -21px 21px 0 #86E0F9;
+          box-shadow: -21px 21px 0 #86E0F9;
+}
+
+.blogContent {
+  text-align: left;
+  padding: 0 0 5px 20px;
+}
+
+.blogContent .dateName {
+  margin-top: 5px;
+  text-transform: capitalize;
+}
+
+.blogContent h3 {
+  text-align: left;
+  margin: 0;
 }
