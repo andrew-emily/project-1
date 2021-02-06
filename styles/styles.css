@@ -543,3 +543,17 @@ footer p {
   text-align: left;
   margin: 0;
 }
+
+.commentContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+h4 {
+  text-align: left;
+}
