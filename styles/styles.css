@@ -303,23 +303,25 @@ h3 {
   letter-spacing: 1px;
 }
 
-h3 h4 {
+h4 {
   font-size: 3.2rem;
   letter-spacing: 1px;
 }
 
-h3 nav a {
+nav a {
   font-size: 3.2rem;
   text-align: center;
   line-height: 2.9rem;
   letter-spacing: 1px;
 }
 
-h3 button {
+button {
   font-size: 2rem;
   text-align: center;
   line-height: 3.2rem;
   letter-spacing: 1px;
+  padding: .5rem 1.5rem;
+  border: none;
 }
 
 nav {
@@ -343,4 +345,50 @@ header {
 header img {
   position: relative;
   right: -20px;
+}
+
+.about {
+  padding: 10% 0;
+}
+
+.about .aboutContent p {
+  text-align: justify;
+}
+
+.about .aboutContent button {
+  background-color: #86E0F9;
+}
+
+.exhibits {
+  background-color: #0F614E;
+  padding-bottom: 10%;
+}
+
+.exhibits .exhibitFlex1 {
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+.exhibits .exhibitFlex1 img {
+  -webkit-box-shadow: 20px 20px 0 #86E0F9;
+          box-shadow: 20px 20px 0 #86E0F9;
+  position: relative;
+  top: -25px;
+  left: -25px;
+}
+
+.exhibits .exhibitFlex2 {
+  text-align: right;
+}
+
+.exhibits .exhibitFlex2 img {
+  -webkit-box-shadow: -20px 20px 0  #86E0F9;
+          box-shadow: -20px 20px 0  #86E0F9;
+  position: relative;
+  right: -25px;
+}
+
+.exhibits button {
+  background-color: #0C1423;
+  color: #FFF;
 }

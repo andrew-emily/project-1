@@ -1,0 +1,32 @@
+.exhibits{
+    background-color: #0F614E;
+    padding-bottom: 10%;
+
+    .exhibitFlex1{
+        text-align: left;
+        margin-bottom: 5%;
+        img{
+            box-shadow: 20px 20px 0 #86E0F9;
+            position: relative;
+            top:-25px;
+            left:-25px;
+        }
+    }
+
+    .exhibitFlex2{
+        text-align: right;
+        img{
+            box-shadow: -20px 20px 0  #86E0F9;
+            position: relative;
+            right:-25px;
+        }
+    }
+
+
+    button{
+        background-color: #0C1423;
+        color: #FFF;
+    }
+
+  
+}
