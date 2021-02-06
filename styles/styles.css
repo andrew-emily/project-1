@@ -430,11 +430,33 @@ header img {
   margin-left: 15px;
 }
 
+.blogPreview {
+  margin-bottom: 10%;
+}
+
 .blogPreImgLg {
   height: 30vh;
 }
 
 .blogPreImgLg img {
   height: 100%;
-  position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.blogPreImgSm {
+  width: 40%;
+  height: 40%;
+  -webkit-box-shadow: 20px 20px 0 #86E0f9;
+          box-shadow: 20px 20px 0 #86E0f9;
+  position: relative;
+  top: -22px;
+}
+
+.blogPreContent p {
+  text-align: justify;
+}
+
+.blogPreContent button {
+  background-color: #86e0f9;
 }

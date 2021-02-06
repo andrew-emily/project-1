@@ -1,8 +1,30 @@
+.blogPreview{
+    margin-bottom: 10%;
+}
+
 .blogPreImgLg{
     height:30vh;
     img{
         height: 100%;
-        position: center;
+        object-fit: cover;
+    }
+}
+
+.blogPreImgSm{
+    width: 40%;
+    height: 40%;
+    box-shadow: 20px 20px 0 #86E0f9;
+    position: relative;
+    top:-22px;
+
+}
+
+.blogPreContent{
+    p{
+        text-align: justify;
+    }
+    button{
+        background-color:#86e0f9;
     }
 }
 
