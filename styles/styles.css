@@ -289,6 +289,7 @@ h1 {
   line-height: 6rem;
   padding: 50px;
   text-align: left;
+  margin: 0;
 }
 
 h2 {
@@ -319,4 +320,27 @@ h3 button {
   text-align: center;
   line-height: 3.2rem;
   letter-spacing: 1px;
+}
+
+nav {
+  text-align: right;
+}
+
+nav ul {
+  display: none;
+}
+
+.mobileMenu i {
+  font-size: 3rem;
+}
+
+header {
+  background: url(../../assets/header-image.jpg) center/cover;
+  height: 80vh;
+  margin-bottom: 100px;
+}
+
+header img {
+  position: relative;
+  right: -20px;
 }
