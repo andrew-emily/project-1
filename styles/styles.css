@@ -275,6 +275,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 button {
   font-family: 'Barlow', sans-serif;
   text-transform: uppercase;
@@ -603,4 +604,59 @@ legend {
   width: 100%;
   background-color: #0F614E;
   color: #FFF;
+}
+
+.blogSection {
+  position: relative;
+}
+
+.blogAside {
+  background-color: #0F614E;
+  text-align: left;
+  margin-bottom: 10%;
+  position: fixed;
+  left: -86%;
+  top: 5%;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.blogAside:active {
+  left: 0;
+  top: 5%;
+}
+
+.asideImg {
+  position: relative;
+  top: -18px;
+  left: -18px;
+}
+
+.asideContainer {
+  padding: 0 20px 20px 20px;
+}
+
+.asideContainer h5,
+.asideContainer p,
+.asideContainer ul {
+  margin: 0 0 5px 0;
+}
+
+.asideContent {
+  margin-bottom: 25px;
+}
+
+.asideContent ul {
+  padding-left: 15px;
+}
+
+.asideContent li {
+  list-style-type: disc;
+}
+
+.pullTabImg {
+  font-size: 2.5rem;
+  position: absolute;
+  top: 50px;
+  right: -30px;
 }
