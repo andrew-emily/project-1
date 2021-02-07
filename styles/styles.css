@@ -346,6 +346,7 @@ header img {
 
 .about {
   padding: 10% 0;
+  margin-bottom: 10%;
 }
 
 .about .aboutContent p {
@@ -388,6 +389,10 @@ header img {
 .exhibits button {
   background-color: #0C1423;
   color: #FFF;
+}
+
+.info {
+  margin-bottom: 10%;
 }
 
 .infoFlex {
