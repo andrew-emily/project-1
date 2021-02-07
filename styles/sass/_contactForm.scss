@@ -1,15 +1,15 @@
 .contactForm {
     margin-bottom: 10%;
-    background-color: #0F614E;
+    background-color: $spruce;
     width: 90%;
-    box-shadow: -18px 18px 0 #86E0F9;
+    box-shadow: -18px 18px 0 $robinEggBlue;
     position: relative;
     top: -60px;
     left: 35px;
 
     input,
     textarea {
-        background-color: #0F614E;
+        background-color: $spruce;
         color: #FFF;
         border-style: hidden;
         margin-bottom: 20px;
@@ -18,16 +18,16 @@
     }
 
     input {
-        border-bottom: 2px solid #86E0F9;
+        border-bottom: 2px solid $robinEggBlue;
     }
 
     textarea {
-        border: 2px solid #86E0F9;
+        border: 2px solid $robinEggBlue;
     }
 
     button {
         width: 100%;
-        background-color: #0C1423;
+        background-color: $darkBlueGrey;
         color: #FFF;
     }
 }

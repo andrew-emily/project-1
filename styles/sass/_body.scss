@@ -1,11 +1,11 @@
-// * {
-//     border: 1px solid lightcoral;
-// }
+* {
+    border: 1px solid lightcoral;
+}
 
 body {
-    background: #0c1423;
+    background: $darkBlueGrey;
     color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: $baseFont;
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 2.2rem;
@@ -40,7 +40,7 @@ h3,
 h4,
 h5,
 button {
-    font-family: 'Barlow', sans-serif;
+    font-family: $primaryFont;
     text-transform: uppercase;
 }
 

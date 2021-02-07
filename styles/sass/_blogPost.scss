@@ -1,6 +1,6 @@
 .blogPost {
-    border-left: 2px solid #86E0F9;
-    border-bottom: 2px solid #86E0F9;
+    border-left: 2px solid $robinEggBlue;
+    border-bottom: 2px solid $robinEggBlue;
 }
 
 .blogPostImg {
@@ -9,7 +9,7 @@
     right: -19px;
 
     img {
-        box-shadow: -21px 21px 0 #86E0F9;
+        box-shadow: -21px 21px 0 $robinEggBlue;
     }
 }
 

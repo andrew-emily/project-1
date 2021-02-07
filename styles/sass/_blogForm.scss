@@ -12,7 +12,7 @@ legend {
 
     input,
     textarea {
-        background-color: #0C1423;
+        background-color: $darkBlueGrey;
         color: #FFF;
         border-style: hidden;
         margin-bottom: 20px;
@@ -21,16 +21,16 @@ legend {
     }
 
     input {
-        border-bottom: 2px solid #86E0F9;
+        border-bottom: 2px solid $robinEggBlue;
     }
 
     textarea {
-        border: 2px solid #86E0F9;
+        border: 2px solid $robinEggBlue;
     }
 
     button {
         width: 100%;
-        background-color: #0F614E;
+        background-color: $spruce;
         color: #FFF;
     }
 }

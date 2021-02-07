@@ -1,12 +1,12 @@
 .exhibits{
-    background-color: #0F614E;
+    background-color: $spruce;
     padding-bottom: 10%;
 
     .exhibitFlex1{
         text-align: left;
         margin-bottom: 5%;
         img{
-            box-shadow: 20px 20px 0 #86E0F9;
+            box-shadow: 20px 20px 0 $robinEggBlue;
             position: relative;
             top:-25px;
             left:-18px;
@@ -16,7 +16,7 @@
     .exhibitFlex2{
         text-align: right;
         img{
-            box-shadow: -20px 20px 0  #86E0F9;
+            box-shadow: -20px 20px 0  $robinEggBlue;
             position: relative;
             right:-18px;
         }
@@ -24,7 +24,7 @@
 
 
     button{
-        background-color: #0C1423;
+        background-color: $darkBlueGrey;
         color: #FFF;
     }
 
