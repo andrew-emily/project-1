@@ -719,3 +719,30 @@ legend {
   background-color: #0C1423;
   color: #FFF;
 }
+
+.contactContainer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+}
+
+.contactContainer ul a {
+  font-size: 2rem;
+  padding: 0 15px;
+}
+
+.contactInfo {
+  margin-bottom: 10%;
+}
+
+.contactInfo p {
+  margin: 5px 0;
+}
