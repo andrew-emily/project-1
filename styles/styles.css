@@ -239,10 +239,6 @@ html {
   font-size: 62.5%;
 }
 
-* {
-  border: 1px solid lightcoral;
-}
-
 body {
   background: #0C1423;
   color: white;
@@ -686,7 +682,7 @@ legend {
 
 .contactHeader {
   background: url(../../assets/contact-header.jpg) center/cover;
-  height: 70vh;
+  height: 55vh;
   margin-bottom: 10%;
 }
 
@@ -719,7 +715,7 @@ legend {
           box-shadow: -18px 18px 0 #86E0F9;
   position: relative;
   top: -60px;
-  left: 35px;
+  left: 6%;
 }
 
 .contactForm input,
@@ -791,6 +787,13 @@ legend {
   }
   .blogComments h4 {
     padding-left: 40px;
+  }
+  .contactForm {
+    top: -95px;
+    margin: 0;
+  }
+  .contactContainer ul {
+    margin-top: 0;
   }
 }
 
