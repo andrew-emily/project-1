@@ -17,7 +17,6 @@
     }
     .blogPost{
         border: 2px solid $robinEggBlue;
-       
     }
 
     .blogComments{
@@ -40,6 +39,111 @@
 
 }
 
+@media(min-width:1023px) {
+    
+    h1{
+        font-size: 13.8rem;
+        line-height: 12.6rem;
+    }
+
+    h4 {
+        margin: 20px 0;
+    }
+
+    p {
+        font-size: 2rem;
+        line-height: 3.2rem;
+    }
+
+    .indexContainer {
+        display: flex;
+        align-items: flex-start;
+        height: 80vh;
+
+        .heroImg {
+            align-self: flex-end;
+        }
+    }
+
+    .about {
+        padding: 10px 0;
+    }
+
+    .aboutContent {
+        
+        P {
+        text-align: left;
+        margin: 0 auto;
+        max-width: 80%;
+        }
+
+        button {
+            margin-top: 20px;
+        }
+    }
+
+    .exhibitFlex1,
+    .exhibitFlex2 {
+        display: flex;
+
+        .exContent1,
+        .exContent2 {
+            width: 70%;
+        }
+    }
+
+    .exImg1 {
+        position: relative;
+        left: -3%;
+    }
+
+    .exImg2 {
+        position: relative;
+        right: -3%;
+    }
+
+    .exhibitFlex2 {
+        flex-direction: row-reverse;
+
+        .exContent2 {
+            padding-right: 20px;
+        }
+    }
+
+    .exImg1 {
+        right: 10;
+    }
+
+    .blogPreImgLg{
+        height:30%;
+    }
+
+    .blogPreFlex {
+        display: flex; 
+        align-items: center;
+    }
+
+    .blogPreImgSm {
+        margin-right: 50px;
+    }
+
+    .blogPreContent {
+        text-align: left;
+        width: 90%;
+
+        h3 {
+            text-align: left;
+        }
+    }
+
+    .galleryFlex {
+        flex-direction: row;
+
+        .galleryImg {
+            margin: 10px 10px;
+        }
+    }
+}
 
 
 

@@ -1,6 +1,6 @@
-// * {
-//     border: 1px solid lightcoral;
-// }
+* {
+    border: 1px solid lightcoral;
+}
 
 body {
     background: $darkBlueGrey;
@@ -50,6 +50,7 @@ h1 {
     padding: 50px;
     text-align: left;
     margin: 0;
+    max-width: 4 0%
 }
 
 h2 {
