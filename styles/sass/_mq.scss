@@ -50,6 +50,8 @@
 }
 
 @media(min-width:1023px) {
+
+
     
     h1{
         font-size: 13.8rem;
@@ -72,6 +74,8 @@
     .mobileMenu {
         display: none;
     }
+
+    // INDEX MEDIA QUERIS FOR LANDSCAPE
 
     .indexContainer {
         display: flex;
@@ -163,6 +167,8 @@
         }
     }
 
+    // BLOG MEDIA QUERIES FOR LANDSCAPE
+
     .mainBlogContainer {
         display: flex;
         flex-direction: row;
@@ -196,6 +202,63 @@
     nav a {
     font-size: 2.5rem;
     }
+
+    // MEDIA QUERIES FOR CONTACT PAGE LANDSCAPE
+
+    .contactHeader{
+        margin-bottom: 5%;
+    }
+
+    .contactFlex{
+        display: flex;
+        flex-direction: row-reverse;
+        
+
+        h5{
+            margin: 0;
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.6rem;
+            line-height: 1.2;
+        }
+
+        ul{
+            margin: 0;
+        }
+
+        .contactForm{
+            top:50px;
+            left:40px;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: justify;
+            
+            
+            
+            input{
+                width: calc(50% - 10px);
+            }
+        }
+
+        .contactContainer{
+            text-align: left;
+            ul{
+                justify-content: flex-start;
+
+                a{
+                    padding-left: 0;
+                }
+                
+            }
+        }
+    }
+
+   
+
+       
+
+
 
 }
 
