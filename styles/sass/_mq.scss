@@ -1,4 +1,10 @@
 
+@media(min-width: 1px) {
+    nav ul {
+        display: none;
+    }
+}
+
 @media(min-width:767px){
     h1{
         width: 40%;
@@ -10,6 +16,10 @@
 
     h4{
         font-size:2.5rem
+    }
+
+    nav ul {
+        display: none;
     }
 
     .blogPostImg{
@@ -53,6 +63,14 @@
     p {
         font-size: 2rem;
         line-height: 3.2rem;
+    }
+
+    nav ul {
+        display: contents;
+    }
+
+    .mobileMenu {
+        display: none;
     }
 
     .indexContainer {
@@ -114,6 +132,7 @@
         right: 10;
     }
 
+    // change index blog references to preBlog...
     .blogPreImgLg{
         height:30%;
     }
@@ -143,6 +162,41 @@
             margin: 10px 10px;
         }
     }
+
+    .mainBlogContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .blogAside {
+        position: inherit;
+        width: 40%;
+
+        i {
+            display: none;
+        }
+    }
+
+    .blogPost {
+        max-width: 85%;
+        margin: 0 0 40px 60px;
+        img {
+            box-shadow: -39px 39px 0 $robinEggBlue;
+        }
+
+    }
+
+    .blogContent,
+    .blogComments {
+        padding: 0 25px;
+    }
+
+    nav a {
+    font-size: 2.5rem;
+    }
+
 }
 
 
