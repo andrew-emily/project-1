@@ -492,7 +492,7 @@ footer p {
 }
 
 .blogHeader {
-  background-image: url(../../assets/blog-header.jpg);
+  background: url(../../assets/blog-header.jpg) center/cover;
   height: 80vh;
   margin-bottom: 10%;
 }
@@ -579,6 +579,7 @@ legend {
 }
 
 .blogForm {
+  width: 90%;
   margin-bottom: 10%;
 }
 
@@ -659,4 +660,62 @@ legend {
   position: absolute;
   top: 50px;
   right: -30px;
+}
+
+.contactHeader {
+  background: url(../../assets/contact-header.jpg) center/cover;
+  height: 80vh;
+  margin-bottom: 10%;
+}
+
+.contactTitle {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactForm {
+  margin-bottom: 10%;
+  background-color: #0F614E;
+  width: 90%;
+  -webkit-box-shadow: -18px 18px 0 #86E0F9;
+          box-shadow: -18px 18px 0 #86E0F9;
+  position: relative;
+  top: -60px;
+  left: 35px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  background-color: #0F614E;
+  color: #FFF;
+  border-style: hidden;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+}
+
+.contactForm input {
+  border-bottom: 2px solid #86E0F9;
+}
+
+.contactForm textarea {
+  border: 2px solid #86E0F9;
+}
+
+.contactForm button {
+  width: 100%;
+  background-color: #0C1423;
+  color: #FFF;
 }

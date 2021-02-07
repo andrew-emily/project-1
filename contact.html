@@ -11,9 +11,12 @@
 </head>
 <body>
     <!-- HEADER STARTS -->
-    <header>
+    <header class="contactHeader">
         <div class="wrapper">
             <nav>
+                <div class="mobileMenu" aria-label="navigation bar">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </div>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -21,9 +24,31 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-            <h2>blog</h2>
+        </div>
+        <div class="contactTitle">
+            <h2>contact</h2>
         </div>
     </header>
+    <div class="wrapper">
+        <div class="contactForm">
+            <form action="LOOK THIS UP">
+                <fieldset>
+                    <legend>enter your information to contact under the sea</legend>
+                    <label for="userName" class="sr-only"></label>
+                    <input type="text" name="userName" id="userName" placeholder="Name">
+                    
+                    <label for="userEmail" class="sr-only"></label>
+                    <input type="email" name="userEmail" id="userEmail" placeholder="Email address">
+                    
+                    <label for="commentBox" class="sr-only"></label>
+                    <textarea name="commentBox" id="commentBox" cols="30" rows="10" placeholder="Message"></textarea>
+                    
+                    <label for="submit" class="sr-only"></label>
+                    <button type="submit" id="submit">submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
     <aside class="contactAside">
         <div class="contactContainer">
             <ul>
@@ -42,26 +67,9 @@
             <p>M5V 2D5</p>
         </div>
     </aside>
-    <div class="contactForm">
-    <form action="LOOK THIS UP">
-            <fieldset>
-                <legend>enter your information to contact under the sea</legend>
-                <label for="userName" class="sr-only"></label>
-                <input type="text" name="userName" id="userName" placeholder="Name">
-
-                <label for="userEmail" class="sr-only"></label>
-                <input type="email" name="userEmail" id="userEmail" placeholder="Email address">
-
-                <label for="commentBox" class="sr-only"></label>
-                <textarea name="commentBox" id="commentBox" cols="30" rows="10" placeholder="Message"></textarea>
-
-                <label for="submit" class="sr-only"></label>
-                <button type="submit" id="submit">submit</button>
-            </fieldset>
-        </form>
-    </div>
     <footer class="wrapper">
         <p>Copyright &copy 2021 Juno</p>
     </footer>
 </body>
+<script src="https://kit.fontawesome.com/016d83bf62.js" crossorigin="anonymous"></script>
 </html>

@@ -1,18 +1,15 @@
-fieldset {
-    border: 0;
-}
-
-legend {
-    display: none;
-}
-
-.blogForm {
-    width: 90%;
+.contactForm {
     margin-bottom: 10%;
+    background-color: #0F614E;
+    width: 90%;
+    box-shadow: -18px 18px 0 #86E0F9;
+    position: relative;
+    top: -60px;
+    left: 35px;
 
     input,
     textarea {
-        background-color: #0C1423;
+        background-color: #0F614E;
         color: #FFF;
         border-style: hidden;
         margin-bottom: 20px;
@@ -30,7 +27,7 @@ legend {
 
     button {
         width: 100%;
-        background-color: #0F614E;
+        background-color: #0C1423;
         color: #FFF;
     }
 }
