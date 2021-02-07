@@ -1,3 +1,51 @@
+
+@media(min-width:767px){
+    h1{
+        width: 40%;
+    }
+
+    h3{
+        font-size:3rem;
+    }
+
+    h4{
+        font-size:2.5rem
+    }
+
+    .blogPostImg{
+        top:-100px;
+    }
+    .blogPost{
+        border: 2px solid $robinEggBlue;
+       
+    }
+
+    .blogComments{
+        h4{
+            padding-left: 40px;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // desktop
 @media (min-width: 1200px) {
     

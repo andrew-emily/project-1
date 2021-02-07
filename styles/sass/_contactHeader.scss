@@ -1,7 +1,10 @@
 .contactHeader {
     background: url(../../assets/contact-header.jpg) center/cover;
-    height: 80vh;
+    height: 70vh;
     margin-bottom: 10%;
+    .mobileMenu{
+        padding: 2%;
+    }
 }
 
 .contactTitle {
