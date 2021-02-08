@@ -1,10 +1,7 @@
 .blogHeader {
     background: url(../../assets/blog-header.jpg) center/cover;
-    height: 70vh;
+    height: 55vh;
     margin-bottom: 10%;
-    .mobileMenu{
-        padding: 2%;
-    }
 }
 
 .blogTitle {
@@ -13,4 +10,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    h2 {
+        margin-top: 0;
+    }
 }

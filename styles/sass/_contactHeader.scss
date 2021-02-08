@@ -2,9 +2,6 @@
     background: url(../../assets/contact-header.jpg) center/cover;
     height: 55vh;
     margin-bottom: 10%;
-    .mobileMenu{
-        padding: 2%;
-    }
 }
 
 .contactTitle {
@@ -13,4 +10,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    h2 {
+        margin-top: 0;
+    }
 }

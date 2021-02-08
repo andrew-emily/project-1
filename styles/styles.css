@@ -535,12 +535,8 @@ footer p {
 
 .blogHeader {
   background: url(../../assets/blog-header.jpg) center/cover;
-  height: 70vh;
+  height: 55vh;
   margin-bottom: 10%;
-}
-
-.blogHeader .mobileMenu {
-  padding: 2%;
 }
 
 .blogTitle {
@@ -558,6 +554,10 @@ footer p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.blogTitle h2 {
+  margin-top: 0;
 }
 
 .blogPost {
@@ -678,7 +678,13 @@ legend {
 .asideImg {
   position: relative;
   top: -18px;
-  left: -18px;
+  left: -28px;
+}
+
+.asideImg img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
 }
 
 .asideContainer {
@@ -707,17 +713,13 @@ legend {
   font-size: 2.5rem;
   position: absolute;
   top: 50px;
-  right: -30px;
+  right: -45px;
 }
 
 .contactHeader {
   background: url(../../assets/contact-header.jpg) center/cover;
   height: 55vh;
   margin-bottom: 10%;
-}
-
-.contactHeader .mobileMenu {
-  padding: 2%;
 }
 
 .contactTitle {
@@ -735,6 +737,10 @@ legend {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.contactTitle h2 {
+  margin-top: 0;
 }
 
 .contactForm {
