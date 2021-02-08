@@ -1001,7 +1001,7 @@ legend {
     margin: 0;
   }
   .contactFlex .contactForm {
-    top: 50px;
+    top: -120px;
     left: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1023,6 +1023,33 @@ legend {
   }
   .contactFlex .contactContainer ul a {
     padding-left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  header .heroImg {
+    right: -10%;
+  }
+  .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 10%;
+  }
+  .infoFlex {
+    width: calc(50% - 20px);
+  }
+  .blogPreImgSm {
+    top: -100px;
+  }
+  .blogPreImgSm img {
+    width: 100%;
   }
 }
 

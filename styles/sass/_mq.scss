@@ -228,7 +228,7 @@
         }
 
         .contactForm{
-            top:50px;
+            top:-120px;
             left:40px;
             display: flex;
             flex-wrap: wrap;
@@ -253,14 +253,38 @@
             }
         }
     }
+}
 
-   
+// Desktop breakpoint
+
+@media(min-width:1200px){
+
+    header{
+        .heroImg{
+            right: -10%;
+        }
+    }
+    .info{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 10%;
+    }
+    .infoFlex{
+        width:calc(50% - 20px)
+    }
+    .blogPreImgSm{
+        top: -100px;
+        img{
+            width: 100%;
+        }
+    }
+}
 
        
 
 
 
-}
 
 
 
