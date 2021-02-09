@@ -108,10 +108,10 @@
     .exhibitFlex2 {
         display: flex;
 
-        .exContent1,
-        .exContent2 {
-            width: 70%;
-        }
+        // .exContent1,
+        // .exContent2 {
+        //     width: 70%;
+        // }
     }
 
     .exImg1 {
@@ -260,9 +260,31 @@
 
     header{
         .heroImg{
-            right: -10%;
+            right: 0;
+            top:15%;
+            flex: 1 0 80%;
+            img{
+                width: 100%;
+            }
         }
     }
+    .about{
+        margin-top: 10%;
+    }
+    .exhibits{
+        padding-top: 5%;
+    }
+
+    .exContent2,
+    .exContent1{
+        flex: 0 1 50rem;
+    }
+
+    .exImg1,
+    .exImg2{
+        flex:1 2 30rem
+    }
+    
     .info{
         display:flex;
         flex-direction: row;

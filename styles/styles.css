@@ -902,12 +902,6 @@ legend {
     display: -ms-flexbox;
     display: flex;
   }
-  .exhibitFlex1 .exContent1,
-  .exhibitFlex1 .exContent2,
-  .exhibitFlex2 .exContent1,
-  .exhibitFlex2 .exContent2 {
-    width: 70%;
-  }
   .exImg1 {
     position: relative;
     left: -3%;
@@ -1045,7 +1039,32 @@ legend {
 
 @media (min-width: 1200px) {
   header .heroImg {
-    right: -10%;
+    right: 0;
+    top: 15%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 80%;
+            flex: 1 0 80%;
+  }
+  header .heroImg img {
+    width: 100%;
+  }
+  .about {
+    margin-top: 10%;
+  }
+  .exhibits {
+    padding-top: 5%;
+  }
+  .exContent2,
+  .exContent1 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 50rem;
+            flex: 0 1 50rem;
+  }
+  .exImg1,
+  .exImg2 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 2 30rem;
+            flex: 1 2 30rem;
   }
   .info {
     display: -webkit-box;
