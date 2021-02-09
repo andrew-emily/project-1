@@ -355,7 +355,8 @@ nav li a:hover, nav li a:active {
 }
 
 header {
-  background: url(../../assets/header-image.jpg) center/cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url(../../assets/header-image.jpg) center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7)), url(../../assets/header-image.jpg) center/cover;
   height: 80vh;
   margin-bottom: 100px;
 }
@@ -534,7 +535,8 @@ footer p {
 }
 
 .blogHeader {
-  background: url(../../assets/blog-header.jpg) center/cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../../assets/blog-header.jpg) center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5)), url(../../assets/blog-header.jpg) center/cover;
   height: 55vh;
   margin-bottom: 10%;
 }
@@ -723,7 +725,8 @@ legend {
 }
 
 .contactHeader {
-  background: url(../../assets/contact-header.jpg) center/cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3))), url(../../assets/contact-header.jpg) center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.3)), url(../../assets/contact-header.jpg) center/cover;
   height: 55vh;
   margin-bottom: 10%;
 }
