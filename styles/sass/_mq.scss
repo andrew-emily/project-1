@@ -232,9 +232,7 @@
                 width: calc(50% - 10px);
             }
         }
-            
-            
-            
+
 
         .contactContainer{
             text-align: left;
@@ -254,7 +252,7 @@
 
 @media(min-width:1200px){
 
-        h1 {
+    h1 {
         font-size: 13.8rem;
         line-height: 12.6rem;
     }
@@ -295,9 +293,8 @@
 
     header{
         .heroImg{
-            right: 0;
+            right: -6%;
             top:-4%;
-            flex: 1 0 80%;
             img{
                 width: 100%;
             }
@@ -365,10 +362,3 @@
 
 
 
-
-// desktop
-@media (min-width: 1200px) {
-    
-
-
-}

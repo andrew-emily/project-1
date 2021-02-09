@@ -1074,11 +1074,8 @@ legend {
     letter-spacing: 1px;
   }
   header .heroImg {
-    right: 0;
+    right: -6%;
     top: -4%;
-    -webkit-box-flex: 1;
-        -ms-flex: 1 0 80%;
-            flex: 1 0 80%;
   }
   header .heroImg img {
     width: 100%;
