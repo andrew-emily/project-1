@@ -752,7 +752,6 @@ legend {
 .contactForm {
   margin-bottom: 10%;
   background-color: #0F614E;
-  width: 90%;
   -webkit-box-shadow: -18px 18px 0 #86E0F9;
           box-shadow: -18px 18px 0 #86E0F9;
   position: relative;
@@ -845,9 +844,22 @@ legend {
   .blogComments h4 {
     padding-left: 40px;
   }
+  .contactFlex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .contactForm {
     top: -95px;
-    margin: 0;
+    margin: 0 auto;
+    left: 3%;
   }
   .contactContainer ul {
     margin-top: 0;
