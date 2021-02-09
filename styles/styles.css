@@ -272,7 +272,7 @@ a {
 .wrapper {
   margin: 0 auto;
   width: 90%;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 h1,
@@ -902,6 +902,12 @@ legend {
     display: -ms-flexbox;
     display: flex;
   }
+  .exhibitFlex1 .exContent1,
+  .exhibitFlex1 .exContent2,
+  .exhibitFlex2 .exContent1,
+  .exhibitFlex2 .exContent2 {
+    width: 70%;
+  }
   .exImg1 {
     position: relative;
     left: -3%;
@@ -918,9 +924,6 @@ legend {
   }
   .exhibitFlex2 .exContent2 {
     padding-right: 20px;
-  }
-  .exImg1 {
-    right: 10;
   }
   .blogPreImgLg {
     height: 30%;
@@ -1038,9 +1041,41 @@ legend {
 }
 
 @media (min-width: 1200px) {
+  h1 {
+    font-size: 13.8rem;
+    line-height: 12.6rem;
+  }
+  h2 {
+    font-size: 8rem;
+    line-height: 9.2rem;
+  }
+  h3 {
+    font-size: 4.2rem;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  h4 {
+    font-size: 3.2rem;
+    letter-spacing: 1px;
+  }
+  nav {
+    margin-bottom: 10%;
+  }
+  nav a {
+    font-size: 3.2rem;
+    text-align: center;
+    line-height: 2.9rem;
+    letter-spacing: 1px;
+  }
+  button {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3.2rem;
+    letter-spacing: 1px;
+  }
   header .heroImg {
     right: 0;
-    top: 15%;
+    top: -4%;
     -webkit-box-flex: 1;
         -ms-flex: 1 0 80%;
             flex: 1 0 80%;
@@ -1054,17 +1089,11 @@ legend {
   .exhibits {
     padding-top: 5%;
   }
+  .exContent1,
   .exContent2,
-  .exContent1 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 50rem;
-            flex: 0 1 50rem;
-  }
   .exImg1,
   .exImg2 {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 2 30rem;
-            flex: 1 2 30rem;
+    width: 100%;
   }
   .info {
     display: -webkit-box;
@@ -1086,37 +1115,5 @@ legend {
   }
   .blogPreImgSm img {
     width: 100%;
-  }
-}
-
-@media (min-width: 1200px) {
-  h1 {
-    font-size: 13.8rem;
-    line-height: 12.6rem;
-  }
-  h2 {
-    font-size: 8rem;
-    line-height: 9.2rem;
-  }
-  h3 {
-    font-size: 4.2rem;
-    text-align: center;
-    letter-spacing: 1px;
-  }
-  h4 {
-    font-size: 3.2rem;
-    letter-spacing: 1px;
-  }
-  nav a {
-    font-size: 3.2rem;
-    text-align: center;
-    line-height: 2.9rem;
-    letter-spacing: 1px;
-  }
-  button {
-    font-size: 2rem;
-    text-align: center;
-    line-height: 3.2rem;
-    letter-spacing: 1px;
   }
 }
