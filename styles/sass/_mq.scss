@@ -228,18 +228,17 @@
         }
 
         .contactForm{
-            top:-120px;
             left:40px;
             display: flex;
             flex-wrap: wrap;
             text-align: justify;
-            
-            
-            
             input{
                 width: calc(50% - 10px);
             }
         }
+            
+            
+            
 
         .contactContainer{
             text-align: left;
@@ -281,7 +280,7 @@
     }
 }
 
-       
+    
 
 
 
