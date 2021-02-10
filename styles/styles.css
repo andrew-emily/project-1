@@ -1142,6 +1142,9 @@ legend {
     padding-top: 5%;
     padding-bottom: 0;
   }
+  .exhibits .exhibitFlex1 {
+    margin-bottom: 0;
+  }
   .exhibits .exImg1 {
     top: -102px;
   }
@@ -1176,9 +1179,13 @@ legend {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin-top: 10%;
+    margin-bottom: 5%;
   }
   .infoFlex {
     width: calc(50% - 20px);
+  }
+  .blogPreview {
+    margin-bottom: 5%;
   }
   .blogPreFlex {
     padding-top: 5%;
@@ -1187,4 +1194,8 @@ legend {
     -webkit-box-shadow: 40px 40px 0 #86E0F9;
             box-shadow: 40px 40px 0 #86E0F9;
   }
+}
+
+.gallery {
+  padding: 5% 0;
 }

@@ -323,6 +323,10 @@
     .exhibits{
         padding-top: 5%;
         padding-bottom: 0;
+
+        .exhibitFlex1 {
+            margin-bottom: 0;
+        }
         
         .exImg1{
             top: -102px;
@@ -338,6 +342,8 @@
         }
     }
 
+
+
     .exContent2{
         align-self: center;
     }
@@ -349,18 +355,22 @@
 
     // DESKTOP MEDIA QUERIES FOR INFO SECTION
     
-    
     .info{
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: 10%;
+        margin-bottom: 5%;
     }
     .infoFlex{
         width:calc(50% - 20px)
     }
 
     // DESKTOP MEDIA QUERIES FOR PREVIEW SECTION
+
+    .blogPreview {
+        margin-bottom: 5%;
+    }
 
     .blogPreFlex{
         padding-top: 5%;
@@ -374,7 +384,11 @@
     
 }
 
-    
+    // DESKTOP MEDIA QUERIES FOR GALLERY SECTION
+
+    .gallery {
+        padding: 5% 0;
+    }
 
 
 
