@@ -258,6 +258,8 @@
 
 @media(min-width:1200px){
 
+    // DESKTOP MEDIA QUERIES FOR TYOPGRAPHY
+
     h1 {
         font-size: 13.8rem;
         line-height: 12.6rem;
@@ -279,6 +281,8 @@
             letter-spacing: 1px;
     }
 
+    // DESKTOP MEDIA QUERIES FOR HEADER
+
     nav {
         margin-bottom: 10%;
     }
@@ -297,6 +301,7 @@
             letter-spacing: 1px;
     }
 
+
     header{
         .heroImg{
             right: -6%;
@@ -306,6 +311,9 @@
             }
         }
     }
+
+    // DESKTOP MEDIA QUERIES FOR ABOUT SECTION
+    
     .about{
         margin-top: 10%;
     }

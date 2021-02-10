@@ -74,6 +74,10 @@ nav a {
     text-align: center;
     line-height: 2.9rem;
     letter-spacing: 1px;
+    &:focus{
+        color: $robinEggBlue;
+        border: 2px solid $robinEggBlue;
+    }
 }
 
 button {
@@ -84,3 +88,7 @@ button {
     padding: .5rem 1.5rem;
     border: none;
 }
+
+
+
+

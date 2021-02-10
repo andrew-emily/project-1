@@ -10,6 +10,11 @@
 
     button{
         background-color: $robinEggBlue;
+        &:hover,
+        &:focus{
+            background-color: $spruce;
+            color: #fff;
+        }
     }
 
 }

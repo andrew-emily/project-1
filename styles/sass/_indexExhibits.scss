@@ -29,6 +29,11 @@
     button{
         background-color: $darkBlueGrey;
         color: #FFF;
+        &:hover,
+        &:focus{
+            background-color: $robinEggBlue;
+        }
+            
     }
 
   

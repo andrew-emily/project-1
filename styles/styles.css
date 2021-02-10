@@ -317,6 +317,11 @@ nav a {
   letter-spacing: 1px;
 }
 
+nav a:focus {
+  color: #86E0F9;
+  border: 2px solid #86E0F9;
+}
+
 button {
   font-size: 2rem;
   text-align: center;
@@ -383,6 +388,11 @@ header .mobileMenu {
   background-color: #86E0F9;
 }
 
+.about .aboutContent button:hover, .about .aboutContent button:focus {
+  background-color: #0F614E;
+  color: #fff;
+}
+
 .exhibits {
   background-color: #0F614E;
   padding-bottom: 10%;
@@ -419,6 +429,10 @@ header .mobileMenu {
 .exhibits button {
   background-color: #0C1423;
   color: #FFF;
+}
+
+.exhibits button:hover, .exhibits button:focus {
+  background-color: #86E0F9;
 }
 
 .info {
@@ -494,6 +508,11 @@ header .mobileMenu {
 
 .blogPreContent button {
   background-color: #86E0F9;
+}
+
+.blogPreContent button:hover, .blogPreContent button:focus {
+  background-color: #0F614E;
+  color: #fff;
 }
 
 .gallery {
