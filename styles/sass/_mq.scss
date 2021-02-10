@@ -311,24 +311,30 @@
     }
     .exhibits{
         padding-top: 5%;
+        padding-bottom: 0;
+        
+        .exImg1{
+            top: -102px;
+            img{
+                box-shadow: 40px 40px 0 $robinEggBlue;
+            }
+        }
+        .exImg2{
+            top: 50px;
+            img{
+                box-shadow: -40px 40px 0 $robinEggBlue;
+            }
+        }
     }
 
-    // .exContent2,
-    // .exContent1{
-    //     flex: 0 1 50rem;
-    // }
-
-    // .exImg1,
-    // .exImg2{
-    //     flex:1 2 30rem
-    // }
-
-    .exContent1,
-    .exContent2,
+    .exContent2{
+        align-self: center;
+    }
     .exImg1,
     .exImg2 {
         width: 100%;
     }
+    
     
     .info{
         display:flex;
@@ -339,12 +345,13 @@
     .infoFlex{
         width:calc(50% - 20px)
     }
+
     .blogPreImgSm{
-        top: -100px;
         img{
-            width: 100%;
+            box-shadow: 40px 40px 0 $robinEggBlue;
         }
     }
+    
 }
 
     

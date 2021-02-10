@@ -479,10 +479,13 @@ header .mobileMenu {
 .blogPreImgSm {
   width: 40%;
   height: 40%;
-  -webkit-box-shadow: 20px 20px 0 #86E0F9;
-          box-shadow: 20px 20px 0 #86E0F9;
   position: relative;
   top: -22px;
+}
+
+.blogPreImgSm img {
+  -webkit-box-shadow: 20px 20px 0 #86E0F9;
+          box-shadow: 20px 20px 0 #86E0F9;
 }
 
 .blogPreContent p {
@@ -1100,9 +1103,27 @@ legend {
   }
   .exhibits {
     padding-top: 5%;
+    padding-bottom: 0;
   }
-  .exContent1,
-  .exContent2,
+  .exhibits .exImg1 {
+    top: -102px;
+  }
+  .exhibits .exImg1 img {
+    -webkit-box-shadow: 40px 40px 0 #86E0F9;
+            box-shadow: 40px 40px 0 #86E0F9;
+  }
+  .exhibits .exImg2 {
+    top: 50px;
+  }
+  .exhibits .exImg2 img {
+    -webkit-box-shadow: -40px 40px 0 #86E0F9;
+            box-shadow: -40px 40px 0 #86E0F9;
+  }
+  .exContent2 {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
   .exImg1,
   .exImg2 {
     width: 100%;
@@ -1122,10 +1143,8 @@ legend {
   .infoFlex {
     width: calc(50% - 20px);
   }
-  .blogPreImgSm {
-    top: -100px;
-  }
   .blogPreImgSm img {
-    width: 100%;
+    -webkit-box-shadow: 40px 40px 0 #86E0F9;
+            box-shadow: 40px 40px 0 #86E0F9;
   }
 }

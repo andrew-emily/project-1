@@ -13,9 +13,11 @@
 .blogPreImgSm{
     width: 40%;
     height: 40%;
-    box-shadow: 20px 20px 0 $robinEggBlue;
     position: relative;
     top:-22px;
+    img{
+        box-shadow: 20px 20px 0 $robinEggBlue;
+    }
 
 }
 
