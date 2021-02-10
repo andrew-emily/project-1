@@ -1143,6 +1143,9 @@ legend {
   .infoFlex {
     width: calc(50% - 20px);
   }
+  .blogPreFlex {
+    padding-top: 5%;
+  }
   .blogPreImgSm img {
     -webkit-box-shadow: 40px 40px 0 #86E0F9;
             box-shadow: 40px 40px 0 #86E0F9;

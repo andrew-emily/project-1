@@ -254,7 +254,7 @@
     }
 }
 
-// Desktop breakpoint
+// DESKTOP BREAKPOINT
 
 @media(min-width:1200px){
 
@@ -309,6 +309,9 @@
     .about{
         margin-top: 10%;
     }
+
+    // DESKTOP MEDIAQUERIES FOR EXHIBITS
+
     .exhibits{
         padding-top: 5%;
         padding-bottom: 0;
@@ -334,6 +337,9 @@
     .exImg2 {
         width: 100%;
     }
+
+
+    // DESKTOP MEDIA QUERIES FOR INFO SECTION
     
     
     .info{
@@ -344,6 +350,12 @@
     }
     .infoFlex{
         width:calc(50% - 20px)
+    }
+
+    // DESKTOP MEDIA QUERIES FOR PREVIEW SECTION
+
+    .blogPreFlex{
+        padding-top: 5%;
     }
 
     .blogPreImgSm{
