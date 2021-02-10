@@ -33,9 +33,14 @@ legend {
         border: 2px solid $robinEggBlue;
     }
 
-    button {
+    button[type="submit"] {
         width: 100%;
         background-color: $spruce;
         color: #FFF;
+        &:hover,
+        &:focus{
+            background-color:$robinEggBlue;
+            color: $darkBlueGrey;
+        }
     }
 }

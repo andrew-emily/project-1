@@ -678,10 +678,15 @@ legend {
   border: 2px solid #86E0F9;
 }
 
-.blogForm button {
+.blogForm button[type="submit"] {
   width: 100%;
   background-color: #0F614E;
   color: #FFF;
+}
+
+.blogForm button[type="submit"]:hover, .blogForm button[type="submit"]:focus {
+  background-color: #86E0F9;
+  color: #0C1423;
 }
 
 .blogSection {
@@ -808,10 +813,15 @@ legend {
   border: 2px solid #86E0F9;
 }
 
-.contactForm button {
+.contactForm button[type="submit"] {
   width: 100%;
   background-color: #0C1423;
   color: #FFF;
+}
+
+.contactForm button[type="submit"]:hover, .contactForm button[type="submit"]:focus {
+  background-color: #86E0F9;
+  color: #0C1423;
 }
 
 .contactContainer ul {
@@ -831,6 +841,14 @@ legend {
 .contactContainer ul a {
   font-size: 2rem;
   padding: 0 15px;
+}
+
+.contactContainer ul a:focus {
+  color: #86E0F9;
+}
+
+.contactContainer ul a i:hover {
+  color: #86E0F9;
 }
 
 .contactInfo {

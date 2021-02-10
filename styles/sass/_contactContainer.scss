@@ -7,6 +7,14 @@
     a {
         font-size: 2rem;
         padding: 0 15px;
+        &:focus{
+            color: $robinEggBlue;
+        }
+        i{
+           &:hover {
+               color: $robinEggBlue;
+           } 
+        }
     }
 }
 
