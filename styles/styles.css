@@ -1194,8 +1194,10 @@ legend {
     -webkit-box-shadow: 40px 40px 0 #86E0F9;
             box-shadow: 40px 40px 0 #86E0F9;
   }
-}
-
-.gallery {
-  padding: 5% 0;
+  .gallery {
+    padding: 5% 0;
+  }
+  .blogForm input {
+    width: calc(50% - 20px);
+  }
 }

@@ -5,6 +5,8 @@
     }
 }
 
+// MEDIA QUERIES FOR PHONE
+
 @media(min-width:767px){
     h1{
         width: 40%;
@@ -22,6 +24,8 @@
         display: none;
     }
 
+    // PHONE MEDIA QUERIES FOR BLOG PAGE
+
     .blogPostImg{
         top:-100px;
     }
@@ -34,6 +38,8 @@
             padding-left: 40px;
         }
     }
+
+    // PHONE MEDIA QUERIES FOR CONTACT FORM
 
     .contactFlex {
         display: flex;
@@ -54,6 +60,8 @@
     }
 
 }
+
+// MEDIA QUERIES FOR TABLET
 
 @media(min-width:1023px) {
 
@@ -342,8 +350,6 @@
         }
     }
 
-
-
     .exContent2{
         align-self: center;
     }
@@ -382,16 +388,24 @@
         }
     }
     
-}
-
     // DESKTOP MEDIA QUERIES FOR GALLERY SECTION
-
+    
     .gallery {
         padding: 5% 0;
     }
+    
+    // DESKTOP MEDIA QUERIES FOR BLOG FORM
 
-
-
+    .blogForm{
+        input{
+            width: calc(50% - 20px);
+        }
+    }
+}    
+    
+    
+    
+    
 
 
 
