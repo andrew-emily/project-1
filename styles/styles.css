@@ -496,6 +496,10 @@ header .mobileMenu {
   color: #0C1423;
 }
 
+.infoFlex .infoIcon i .fa-file {
+  padding: 5px;
+}
+
 .infoFlex .infoContent {
   margin-left: 15px;
 }
