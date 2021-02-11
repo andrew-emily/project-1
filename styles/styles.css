@@ -239,10 +239,6 @@ html {
   font-size: 62.5%;
 }
 
-* {
-  border: 1px solid lightcoral;
-}
-
 body {
   background: #0C1423;
   color: white;
@@ -340,6 +336,26 @@ nav {
       -ms-flex-pack: end;
           justify-content: flex-end;
   padding-top: 30px;
+  position: relative;
+}
+
+nav ul {
+  padding-right: 10%;
+  background: rgba(0, 0, 0, 0.75);
+  text-align: left;
+  position: absolute;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  left: -100%;
+  top: 0;
+  z-index: 10;
+}
+
+nav ul li {
+  padding: 10% 0;
+  margin: 0;
 }
 
 nav li {
@@ -355,12 +371,12 @@ nav li a:hover, nav li a:active {
   color: #86E0F9;
 }
 
-.toggle i {
+label[for="toggle"] {
   font-size: 3rem;
 }
 
 input[type="checkbox"]:checked + ul {
-  right: 0;
+  left: 0;
 }
 
 input[type="checkbox"] {
@@ -376,7 +392,7 @@ header {
 
 header .heroImg {
   position: relative;
-  right: -6%;
+  right: -5.5%;
 }
 
 header .mobileMenu {
@@ -416,7 +432,7 @@ header .mobileMenu {
           box-shadow: 20px 20px 0 #86E0F9;
   position: relative;
   top: -25px;
-  left: -6%;
+  left: -5.5%;
 }
 
 .exhibits .exhibitFlex2 {
@@ -431,7 +447,7 @@ header .mobileMenu {
   -webkit-box-shadow: -20px 20px 0 #86E0F9;
           box-shadow: -20px 20px 0 #86E0F9;
   position: relative;
-  right: -6%;
+  right: -5.5%;
 }
 
 .exhibits button {
@@ -794,7 +810,7 @@ legend {
           box-shadow: -18px 18px 0 #86E0F9;
   position: relative;
   top: -60px;
-  left: 6%;
+  left: 5.5%;
 }
 
 .contactForm input,
@@ -867,28 +883,6 @@ legend {
   margin: 5px 0;
 }
 
-@media (min-width: 1px) {
-  nav {
-    position: relative;
-  }
-  nav ul {
-    padding-right: 5%;
-    background: rgba(0, 0, 0, 0.75);
-    text-align: left;
-    position: absolute;
-    -webkit-transition-property: all;
-    transition-property: all;
-    -webkit-transition-duration: 0.5s;
-            transition-duration: 0.5s;
-    top: 0;
-    z-index: 10;
-  }
-  nav ul li {
-    padding: 10% 0;
-    margin: 0;
-  }
-}
-
 @media (min-width: 767px) {
   h1 {
     width: 40%;
@@ -948,7 +942,7 @@ legend {
   nav ul {
     display: contents;
   }
-  .mobileMenu {
+  label[for="toggle"] {
     display: none;
   }
   .indexContainer {

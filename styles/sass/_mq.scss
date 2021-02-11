@@ -1,28 +1,7 @@
 
 @media(min-width: 1px) {
 
-    nav {
-        position: relative;
-
-        ul {
-            padding-right: 5%;
-            background: rgba(0, 0, 0, 0.75);
-            text-align: left;
-            position: absolute;
-            transition-property: all;
-            transition-duration: 0.5s;
-            // left: -100%;
-            top: 0;
-            z-index: 10;
-
-            li {
-                padding: 10% 0;
-                margin: 0;
-            }
-        
-            
-        }
-    }
+    
 }
 
 // MEDIA QUERIES FOR IPAD LANDSCAPE
@@ -105,7 +84,7 @@
         display: contents;
     }
 
-    .mobileMenu {
+    label[for="toggle"] {
         display: none;
     }
 
