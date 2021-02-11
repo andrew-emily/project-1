@@ -884,6 +884,10 @@ legend {
 }
 
 @media (min-width: 767px) {
+  body {
+    font-size: 2rem;
+    line-height: 2.6rem;
+  }
   h1 {
     width: 40%;
   }
@@ -893,8 +897,13 @@ legend {
   h4 {
     font-size: 2.5rem;
   }
-  nav ul {
-    display: none;
+  header {
+    margin-bottom: 0;
+  }
+  header .heroImg {
+    position: relative;
+    width: 80%;
+    right: -25.5%;
   }
   .blogPostImg {
     top: -100px;
@@ -942,6 +951,18 @@ legend {
   nav ul {
     display: contents;
   }
+  nav ul li {
+    padding: 30px 0 0 0;
+  }
+  header {
+    margin-bottom: 10%;
+  }
+  header .heroImg {
+    position: relative;
+    width: 80%;
+    right: -5.5%;
+    top: 25%;
+  }
   label[for="toggle"] {
     display: none;
   }
@@ -953,10 +974,6 @@ legend {
         -ms-flex-align: start;
             align-items: flex-start;
     height: 80vh;
-  }
-  .indexContainer .heroImg {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
   }
   .about {
     padding: 10px 0;
@@ -983,11 +1000,11 @@ legend {
   }
   .exImg1 {
     position: relative;
-    left: -3%;
+    left: -2.75%;
   }
   .exImg2 {
     position: relative;
-    right: -3%;
+    right: -2.75%;
   }
   .exhibitFlex2 {
     -webkit-box-orient: horizontal;
@@ -1147,7 +1164,7 @@ legend {
     letter-spacing: 1px;
   }
   header .heroImg {
-    right: -6%;
+    right: -5.5%;
     top: -4%;
   }
   header .heroImg img {
@@ -1165,6 +1182,7 @@ legend {
   }
   .exhibits .exImg1 {
     top: -102px;
+    left: -2.25%;
   }
   .exhibits .exImg1 img {
     -webkit-box-shadow: 40px 40px 0 #86E0F9;
@@ -1172,6 +1190,7 @@ legend {
   }
   .exhibits .exImg2 {
     top: 50px;
+    right: -2.25%;
   }
   .exhibits .exImg2 img {
     -webkit-box-shadow: -40px 40px 0 #86E0F9;

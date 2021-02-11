@@ -1,12 +1,11 @@
-
-@media(min-width: 1px) {
-
-    
-}
-
-// MEDIA QUERIES FOR IPAD LANDSCAPE
+// MEDIA QUERIES FOR IPAD
 
 @media(min-width:767px){
+    body {
+        font-size: 2rem;
+        line-height: 2.6rem;
+    }
+
     h1{
         width: 40%;
     }
@@ -19,11 +18,16 @@
         font-size:2.5rem
     }
 
-    nav ul {
-        display: none;
-    }
-
     // PHONE MEDIA QUERIES FOR BLOG PAGE
+
+    header {
+        .heroImg {
+            position: relative;
+            width: 80%;
+            right: -25.5%;
+        }
+        margin-bottom: 0;
+    }
 
     .blogPostImg{
         top:-100px;
@@ -60,7 +64,7 @@
 
 }
 
-// MEDIA QUERIES FOR TABLET
+// MEDIA QUERIES FOR TABLET LANDSCAPE
 
 @media(min-width:1023px) {
 
@@ -82,6 +86,19 @@
 
     nav ul {
         display: contents;
+        li {
+            padding: 30px 0 0 0 ;
+        }
+    }
+
+    header {
+        .heroImg {
+            position: relative;
+            width: 80%;
+            right: -5.5%;
+            top: 25%;
+        }
+        margin-bottom: 10%;
     }
 
     label[for="toggle"] {
@@ -94,10 +111,6 @@
         display: flex;
         align-items: flex-start;
         height: 80vh;
-
-        .heroImg {
-            align-self: flex-end;
-        }
     }
 
     .about {
@@ -129,12 +142,12 @@
 
     .exImg1 {
         position: relative;
-        left: -3%;
+        left: -2.75%;
     }
 
     .exImg2 {
         position: relative;
-        right: -3%;
+        right: -2.75%;
     }
 
     .exhibitFlex2 {
@@ -311,7 +324,7 @@
 
     header{
         .heroImg{
-            right: -6%;
+            right: -5.5%;
             top:-4%;
             img{
                 width: 100%;
@@ -337,12 +350,14 @@
         
         .exImg1{
             top: -102px;
+            left: -2.25%;
             img{
                 box-shadow: 40px 40px 0 $robinEggBlue;
             }
         }
         .exImg2{
             top: 50px;
+            right: -2.25%;
             img{
                 box-shadow: -40px 40px 0 $robinEggBlue;
             }
