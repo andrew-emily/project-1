@@ -860,8 +860,19 @@ legend {
 }
 
 @media (min-width: 1px) {
-  nav ul {
-    display: none;
+  nav {
+    position: relative;
+  }
+  nav nav ul {
+    padding-right: 5%;
+    background: rgba(0, 0, 0, 0.75);
+    text-align: left;
+    position: absolute;
+    left: -100px;
+    z-index: 10;
+  }
+  nav nav ul li {
+    padding: 3% 0;
   }
 }
 
