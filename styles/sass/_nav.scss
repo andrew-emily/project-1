@@ -20,8 +20,15 @@ nav li {
 
 }
 
-.mobileMenu i {
+.toggle i {
     font-size: 3rem;
+}
+
+input[type="checkbox"]:checked + ul{
+    right:0;
+}
+input[type="checkbox"]{
+    display:none;
 }
 
 

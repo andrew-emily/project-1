@@ -355,8 +355,16 @@ nav li a:hover, nav li a:active {
   color: #86E0F9;
 }
 
-.mobileMenu i {
+.toggle i {
   font-size: 3rem;
+}
+
+input[type="checkbox"]:checked + ul {
+  right: 0;
+}
+
+input[type="checkbox"] {
+  display: none;
 }
 
 header {
@@ -863,16 +871,21 @@ legend {
   nav {
     position: relative;
   }
-  nav nav ul {
+  nav ul {
     padding-right: 5%;
     background: rgba(0, 0, 0, 0.75);
     text-align: left;
     position: absolute;
-    left: -100px;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    top: 0;
     z-index: 10;
   }
-  nav nav ul li {
-    padding: 3% 0;
+  nav ul li {
+    padding: 10% 0;
+    margin: 0;
   }
 }
 
