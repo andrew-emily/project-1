@@ -328,15 +328,14 @@ button {
 }
 
 nav {
-  text-align: right;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  padding-top: 30px;
   position: relative;
+  margin-bottom: 2.5em;
 }
 
 nav ul {
@@ -384,15 +383,16 @@ input[type="checkbox"] {
 }
 
 header {
+  position: relative;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url(../assets/header-image.jpg) center/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.7)), url(../assets/header-image.jpg) center/cover;
-  height: 80vh;
+  height: 100vh;
   margin-bottom: 100px;
 }
 
 header .heroImg {
-  position: relative;
-  right: -5.5%;
+  position: absolute;
+  right: 0;
 }
 
 header .mobileMenu {
@@ -1162,9 +1162,6 @@ legend {
   h4 {
     font-size: 3.2rem;
     letter-spacing: 1px;
-  }
-  nav {
-    margin-bottom: 10%;
   }
   nav a {
     font-size: 3.2rem;
